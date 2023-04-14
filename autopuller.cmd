@@ -6,7 +6,7 @@ set /p root_folder=<root_folder.txt
 for /d %%D in ("%root_folder%\*") do (
   echo Traitement du dossier %%~nxD...
   pushd "%%D"
-  ::git pull
+  git pull
   popd
 )
 

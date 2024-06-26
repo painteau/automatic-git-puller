@@ -9,6 +9,3 @@ for dir in "$root_folder"/*/; do
   git pull
   cd - > /dev/null
 done
-
-# Pause to wait for the user to press a key before closing
-read -p "Press any key to continue..."

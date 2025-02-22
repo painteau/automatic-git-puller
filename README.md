@@ -5,10 +5,8 @@ A simple utility to automatically pull updates from multiple Git repositories in
 ⭐ Features
 - 🔍 Automatic detection of Git repositories
 - ⚠️ Error handling for missing directories and failed Git operations
-- 📝 Detailed logging with timestamps
 - 💻 Support for both Windows (`.cmd`) and Unix-like (`.sh`) environments
 - ⏩ Skips non-Git directories automatically
-- 📁 Creates log files for each run in the `logs` directory
 
 📌 Prerequisites
 - Git must be installed and accessible from the command line
@@ -38,10 +36,6 @@ Make the script executable and run it:
 chmod +x autopuller.sh
 ./autopuller.sh
 ```
-
-📊 Logs
-All operations are logged in the `logs` directory with timestamps. Log files follow the naming pattern:
-- `autopuller_YYYYMMDD_HHMMSS.log`
 
 🔧 Troubleshooting
 - If you see "Error: root_folder.txt not found!", make sure you've created the file and specified the correct path

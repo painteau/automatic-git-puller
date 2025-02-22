@@ -1,2 +1,16 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Scripts
+*.sh text eol=lf
+*.cmd text eol=crlf
+*.bat text eol=crlf
+
+# Documents
+*.txt text
+*.md text
+*.log text
+
+# Git files
+.gitattributes text
+.gitignore text
